@@ -1,0 +1,246 @@
+
+.k {
+    -fx-font-family: Verdana, sans-serif;
+    -fx-font-weight: lighter;
+    -fx-font-size: 14px;
+    -fx-text-fill: black;
+    -fx-text-align: center;
+    -fx-padding: 5, 0 , 10 , 0;
+}
+
+.b {
+    -fx-font-family: Verdana, sans-serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-text-fill: black;
+    -fx-text-align: center;
+    -fx-padding: 10, 0 , 10 , 0;
+}
+
+.toPlayerButton {
+    -fx-pref-height: 40px;
+    -fx-max-height: 40px;
+    -fx-pref-width: 50px;
+    -fx-background-color: transparent;
+    -fx-background-image: url('/images/back.png');
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+}
+.toPlayerButton:hover {
+    -fx-background-image: url('/images/back.png');
+    -fx-background-size: 38 38;
+}
+
+.addPlaylistButton {
+    -fx-pref-height: 40px;
+    -fx-max-height: 40px;
+    -fx-pref-width: 50px;
+    -fx-background-color: transparent;
+    -fx-background-image: url('/images/ok.png');
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+}
+.addPlaylistButton:hover {
+    -fx-background-image: url('/images/ok.png');
+    -fx-background-size: 38 38;
+}
+.pauseButton{
+ -fx-pref-height: 33px;
+    -fx-max-height: 33px;
+    -fx-pref-width: 100px;
+    -fx-background-color: transparent;
+    -fx-background-image: url('/images/pause3.png');
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+}
+
+.pauseButton:hover {
+  -fx-background-image: url('/images/pause3.png');
+  -fx-background-size: 44 44;
+}
+
+.playButton {
+    -fx-pref-height: 24px;
+    -fx-max-height: 24px;
+    -fx-pref-width: 100px;
+    -fx-background-color: transparent;
+    -fx-background-image: url('/images/playbutton.png');
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+}
+
+.playButton:hover {
+  -fx-background-image: url('/images/playbutton.png');
+  -fx-background-size: 45 45;
+}
+
+.loopButton {
+    -fx-pref-height: 24px;
+    -fx-max-height: 24px;
+    -fx-pref-width: 100px;
+    -fx-background-color: transparent;
+    -fx-background-image: url('/images/loopbutton.png');
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+
+}
+
+.loopButton:hover {
+    -fx-background-image: url('/images/loopbutton.png');
+    -fx-background-size: 35 35;
+}
+
+
+.bckButton {
+    -fx-pref-height: 24px;
+    -fx-max-height: 24px;
+    -fx-pref-width: 100px;
+    -fx-background-color: transparent;
+    -fx-background-image: url('/images/skipbck.png');
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+}
+
+.bckButton:hover {
+    -fx-background-image: url('/images/skipbck.png');
+    -fx-background-size: 50 50;
+}
+
+.fwdButton {
+    -fx-pref-height: 24px;
+    -fx-max-height: 24px;
+    -fx-pref-width: 100px;
+    -fx-background-color: transparent;
+    -fx-background-image: url('/images/skipfwd.png');
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+}
+
+.fwdButton:hover {
+    -fx-background-image: url('/images/skipfwd.png');
+    -fx-background-size: 50 50;
+}
+
+.shuffleButton {
+    -fx-pref-height: 24px;
+    -fx-max-height: 24px;
+    -fx-pref-width: 100px;
+    -fx-background-color: transparent;
+    -fx-background-image: url('/images/shufflebutton.png');
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+
+}
+.shuffleButton:hover {
+    -fx-background-image: url('/images/shufflebutton.png');
+    -fx-background-size: 34 34;
+
+}
+
+
+.muteButton {
+    -fx-pref-height: 24px;
+    -fx-max-height: 24px;
+    -fx-pref-width: 100px;
+    -fx-background-color: transparent;
+    -fx-background-image: url('/images/volumemute.png');
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+
+}
+
+.muteButton:hover {
+    -fx-background-image: url('/images/volumemute.png');
+    -fx-background-size: 38 38;
+
+}
+
+
+.volumeButton {
+    -fx-pref-height: 24px;
+    -fx-max-height: 24px;
+    -fx-pref-width: 100px;
+    -fx-background-color: transparent;
+    -fx-background-image: url('/images/volume.png');
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+
+}
+.volumeButton:hover {
+    -fx-background-image: url('/images/volume.png');
+    -fx-background-size: 38 38;
+}
+
+.loopButtonactive {
+    -fx-pref-height: 24px;
+    -fx-max-height: 24px;
+    -fx-pref-width: 100px;
+    -fx-background-color: transparent;
+    -fx-background-image: url('/images/repeatactive.png');
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+}
+.loopButtonactive:hover {
+    -fx-background-image: url('/images/repeatactive.png');
+    -fx-background-size: 34 34;
+}
+
+.shuffleButtonactive {
+    -fx-pref-height: 24px;
+    -fx-max-height: 24px;
+    -fx-pref-width: 100px;
+    -fx-background-color: transparent;
+    -fx-background-image: url('/images/shuffleactive.png');
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+}
+.shuffleButtonactive:hover {
+    -fx-background-image: url('/images/shuffleactive.png');
+    -fx-background-size: 34 34;
+}
+
+.playlistButton {
+    -fx-pref-height: 24px;
+    -fx-max-height: 24px;
+    -fx-pref-width: 100px;
+    -fx-background-color: transparent;
+    -fx-background-image: url('/images/playlistbutton.png');
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+}
+.playlistButton:hover {
+    -fx-background-image: url('/images/playlistbutton.png');
+    -fx-background-size: 38 38;
+}
+.exportButton {
+    -fx-pref-height: 33px;
+    -fx-max-height: 33px;
+    -fx-pref-width: 100px;
+    -fx-background-color: transparent;
+    -fx-background-image: url('/images/export.png');
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+}
+.exportButton:hover {
+    -fx-background-image: url('/images/export.png');
+    -fx-background-size: 36 36;
+}
+
+.gridpane {
+    -fx-spacing: 15px;
+}
+
+.progressbar {
+    -fx-min-width: 450px;
+    -fx-max-width: 450px;
+}
+
+.volumeSlider {
+    -fx-min-width: 100px;
+}
+
+.listHB {
+
+
+
+}
